@@ -1,0 +1,252 @@
+body{
+    color: #fff;
+    font-family: 'Alef', sans-serif;
+}
+
+p{
+    font-size: 16px;
+    word-spacing: 5px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+/* Navigation bar style */
+
+.navbar{
+    background-image: none;
+    filter: none;
+    background: #2b2b2b;
+    opacity: 0.8;
+}
+
+.navbar-inner{
+    background-image: none;
+    filter: none;
+    background: #2b2b2b;
+    height: 60px;
+    border: none;
+}
+
+.navbar .nav > li > a{
+    color: #fff;
+    text-shadow: none;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+	
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.navbar .nav > li > a:hover{
+	color: #c3c3c3;
+}
+
+.navbar .brand{
+    color: #fff;
+    text-shadow: none;
+    line-height: 40px;
+    
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.navbar .brand:hover{
+    color: #c3c3c3;
+}
+
+
+/* Section 1 Style*/
+
+.section1{
+   background-image: url('../img/top-bg.jpg');
+   height: 800px;
+}
+
+.intro{
+    margin-top: 200px;
+}
+.intro h1{
+    font-size: 80px;
+    padding-bottom: 25px;
+}
+
+.intro h2{
+    padding-bottom: 20px;
+}
+
+.image{
+    margin-top: 150px;
+}
+
+.btn-default{
+    background-color: #245359;
+    padding: 10px;
+    color: #fff;
+    border: 1px solid #245359;
+}
+
+.btn-default:hover{
+    color: #c3c3c3;
+}
+
+/* Section 2 Style */
+
+.section2-start{
+    background-color: #2b2b2b;
+    height: 30px;
+}
+.section2{
+    background-color: #2b2b2b;
+    height: 700px;
+    padding-top: 60px;
+}
+
+.section2 h1{
+    padding-bottom: 10px;
+}
+
+/* Section 3 Style */
+
+.section3-start{
+    background-color: #262626;
+    height: 30px;
+}
+.section3{
+    background-color: #262626;
+    padding-top: 60px;
+    min-height: 800px;
+}
+
+.section3 h1{
+    padding-bottom: 20px;
+}
+
+.projects{
+    padding-top: 40px;
+}
+
+.thumbnail{
+    border: none;
+    background-color: #87ceeb;
+    border-radius: 0px;
+}
+
+.thumbnail:hover{
+    -webkit-box-shadow: inset 0px 0px 10px 0px #000;
+    box-shadow: inset 0px 0px 10px 0px #000;
+}
+
+.thumbnails li{
+    margin-bottom: 30px;
+}
+
+.filterNav{
+    background-color: #245359;
+    width: 937px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #245359;
+}
+
+.filterNav li a{
+    color: #fff;
+    margin-left: 10px;
+    
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.filterNav li a:hover{
+    color: #c3c3c3;
+}
+
+/* Section 4 Style */
+
+.section4-start{
+    background-color: #191919;
+    height: 30px;
+}
+.section4{
+    background-color: #191919;
+    padding-top: 60px;
+    min-height: 700px;
+}
+
+.section4 h1{
+    padding-bottom: 20px;
+}
+
+.section4 p span{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.section4 p{
+    padding-bottom: 15px;
+}
+
+.section4 .social a{
+    color: #f1f1f1;
+    font-size: 40px;
+}
+
+.section4 .social a:hover{
+    color: #c3c3c3;
+}
+
+.section4 input[type=text]{
+    background-color: #2b2b2b;
+    border-radius: 0px;
+    border: none;
+    height: 30px;
+    
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.section4 input[type=text]:focus{
+    box-shadow: none;
+    background-color: #383838;
+    
+    -webkit-box-shadow: 0 8px 6px -6px #000;
+	   -moz-box-shadow: 0 8px 6px -6px #000;
+	        box-shadow: 0 8px 6px -6px #000;
+    
+}
+
+.section4 textarea{
+    background-color: #2b2b2b;
+    border-radius: 0px;
+    border: none;
+    
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.section4 textarea:focus{
+    box-shadow: none;
+    background-color: #383838;
+    
+    -webkit-box-shadow: 0 8px 6px -6px #000;
+	   -moz-box-shadow: 0 8px 6px -6px #000;
+	        box-shadow: 0 8px 6px -6px #000;
+}

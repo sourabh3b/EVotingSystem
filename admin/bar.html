@@ -1,0 +1,90 @@
+
+
+
+
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.jpg" />
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Year', 'percentage'],
+          ['2014',  55],
+          ['2013',  70],
+          ['2012',  50],
+          ['2011',  80],
+		  ['2010',  65]
+        ]);
+
+        var options = {
+          title: 'VOTING PERFOMANCE ',
+          hAxis: {title: 'Year', titleTextStyle: {color: 'red'}}
+		  
+        };
+        var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+       }
+    </script>
+	<style>
+           body {background-image:url("1.jpg");}
+		  div {
+               background-image:url("1.jpg");
+              }
+    </style>
+  </head>
+  <body>
+  
+  <center>
+    <h1> VOTING PERFOMANCE</h1> 
+    <div id="chart_div" style="width: 600px; height: 500px; margin-left:10px;  margin-top: 10px;"></div>
+  </center>
+
+
+
+
+
+<?php
+
+require('config.php');
+
+$sql="SELECT * FROM nom1 ";
+$abc=mysql_query($sql);
+?>
+<script>
+var myarray=new array();
+</script>
+<?php
+
+$i=0;
+while($row=mysql_fetch_array($sql))
+{
+$row['vote']=$a;
+
+
+}
+
+?>
+
+
+<script>
+
+var x=<?php echo $i; ?>;
+
+var y=<?php   echo $a; ?>;
+myarray[x]=y;
+
+document.write(myarray[a]+"<br>");
+
+</script>
+
+<?php
+$i=$i+1;
+}
+
+?>
+
+  </body>
+</html>
